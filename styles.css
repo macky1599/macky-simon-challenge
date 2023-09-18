@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  text-align: center;
+  background-color: #262626;
+}
+
+#particles-js{
+  height: 100%;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  3%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+
+}
+
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid #F5A621;
+  border-radius: 20%;
+  font-size: 2rem;
+  font-family: 'Arvo', cursive;
+  font-weight: 900;
+  color: #DA0463;
+  background-color: #F5A621;
+  
+}
+
+.toby{
+  height: 200px;
+  width: 200px;
+}
+
+.cody{
+  height: 200px;
+  width: 200px;
+}
+.bailey{
+  height: 200px;
+  width: 200px;
+}
+.sky{
+  height: 200px;
+  width: 200px;
+}
+.king{
+  height: 200px;
+  width: 200px;
+}
+.matcha{
+  height: 200px;
+  width: 200px;
+} 
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+} 
+
+.row1{
+  margin-top: 70px;
+}
+ 
+.start {
+	color: #55260c;
+	background-image: radial-gradient(#fffe01, #f9c41e);
+	box-shadow: 0 0 15px #f9c41e;
+  width: 7%;
+  display: inline-block;
+  border-radius: 3rem;
+  height: 3rem;
+  padding-top: 15px;
+  font-family: "Arvo", cursive;
+
+  font-size: 1.5rem;
+}
+
+.start:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
